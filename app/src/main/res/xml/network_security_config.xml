@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+<!--     remember change ip address by ipconfig in terminal because every net lan have a different ip address-->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.13.101</domain>
+    </domain-config>
+</network-security-config>

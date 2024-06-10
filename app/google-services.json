@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155005288816",
+    "project_id": "drugnoti",
+    "storage_bucket": "drugnoti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155005288816:android:3094fb8f601d034ec68fb5",
+        "android_client_info": {
+          "package_name": "com.example.medicineapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdDx0d2qcuFDlTzdPSxkMVhAkFsVrEyHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

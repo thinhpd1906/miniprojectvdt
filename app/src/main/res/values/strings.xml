@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="post_notification_access_required">Post notification permission access is required to create notification for you</string>
+    <string name="ok">OK</string>
+    <string name="post_notification_not_available">Permission is not available. Requesting post notification permission.</string>
+    <string name="post_notification_permission_granted">Post notification permission was granted. Now create your notification.</string>
+    <string name="post_notification_permission_denied">Post notification permission request was denied</string>
+    <string name="post_notification_permission_available">post notification available</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fab_content_desc">create todo task\n</string>
+    <string name="menu_content_desc">open menu</string>
+    <string name="search_content_desc">search todo task</string>
+    <string name="filter_content_desc">filter todo task</string>
+    <string name="nav_open">Open</string>MedicineApp
+    <string name="nav_close">Close</string>
+</resources>

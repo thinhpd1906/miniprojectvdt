@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/taskHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_task_alt_24"
+        android:menuCategory="secondary" />
+    <item
+        android:id="@+id/drugHome"
+        android:title="Search"
+        android:icon="@drawable/baseline_search_24"
+        android:menuCategory="secondary" />
+    <item
+        android:id="@+id/accountHome"
+        android:title="Setting"
+        android:icon="@drawable/baseline_settings_24"
+        android:menuCategory="secondary" />
+</menu>

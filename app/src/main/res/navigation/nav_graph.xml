@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskHome">
+
+    <fragment
+        android:id="@+id/taskHome"
+        android:name="com.example.medicineapp.flagment.task.TaskHome"
+        android:label="fragment_task_home"
+        tools:layout="@layout/fragment_task_home" >
+        <action
+            android:id="@+id/action_taskHome_to_drugHome"
+            app:destination="@id/drugHome" />
+        <action
+            android:id="@+id/action_taskHome_to_fragmentAddTask"
+            app:destination="@id/fragmentAddTask" />
+    </fragment>
+    <fragment
+        android:id="@+id/drugHome"
+        android:name="com.example.medicineapp.flagment.drug.DrugHome"
+        android:label="fragment_drug_home"
+        tools:layout="@layout/fragment_drug_home" >
+        <action
+            android:id="@+id/action_drugHome_to_searchHistory"
+            app:destination="@id/searchHistory" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAddTask"
+        android:name="com.example.medicineapp.flagment.task.FragmentAddTask"
+        android:label="FragmentAddTask" >
+        <argument
+            android:name="id"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountHome"
+        android:name="com.example.medicineapp.flagment.account.AccountHome"
+        android:label="fragment_account_home"
+        tools:layout="@layout/fragment_account_home" />
+    <fragment
+        android:id="@+id/searchHistory"
+        android:name="com.example.medicineapp.flagment.drug.SearchHistory"
+        android:label="SearchHistory" />
+</navigation>

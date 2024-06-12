@@ -50,9 +50,6 @@
             android:enabled="true"
             android:exported="false">
         </receiver>
-        <service android:name="com.example.medicineapp.notification.NotificationService"
-            android:enabled="true"
-            android:exported="true" />
         <service android:name="com.example.medicineapp.notification.NotiService" />
 <!--        <service-->
 <!--            android:name="com.example.medicineapp.notification.firebase.MyFirebaseMessagingService"-->

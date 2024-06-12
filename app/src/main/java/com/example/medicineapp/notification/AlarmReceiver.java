@@ -60,10 +60,5 @@ public class AlarmReceiver extends BroadcastReceiver {
                     .setPriority(priorityNoti);;
             notificationManager.notify(id, builder.build());
 
-//        Intent serviceIntent = new Intent(context, NotificationService.class);
-//        serviceIntent.putExtras(Objects.requireNonNull(intent.getExtras()));
-//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-//            context.startForegroundService(serviceIntent);
-//        }
     }
 }
